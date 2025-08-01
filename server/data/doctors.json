@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Ananya Rao",
+    "specialization": "Cardiologist",
+    "image": "/images/ananya-rao.jpg",
+    "available": true,
+    "availableSlots": [
+      "2025-08-01T09:00",
+      "2025-08-01T11:30",
+      "2025-08-02T14:00"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dr. Ravi Sharma",
+    "specialization": "Dermatologist",
+    "image": "/images/ravi-sharma.jpg",
+    "available": false,
+    "availableSlots": []
+  },
+  {
+    "id": 3,
+    "name": "Dr. Meera Iyer",
+    "specialization": "Pediatrician",
+    "image": "/images/meera-iyer.jpg",
+    "available": true,
+    "availableSlots": ["2025-08-03T10:00", "2025-08-03T13:30"]
+  },
+  {
+    "id": 4,
+    "name": "Dr. Arjun Verma",
+    "specialization": "Orthopedic Surgeon",
+    "image": "/images/arjun-verma.jpg",
+    "available": true,
+    "availableSlots": [
+      "2025-08-01T08:00",
+      "2025-08-02T15:00",
+      "2025-08-02T17:00"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Dr. Priya Sen",
+    "specialization": "Neurologist",
+    "image": "/images/priya-sen.jpg",
+    "available": false,
+    "availableSlots": []
+  }
+]
