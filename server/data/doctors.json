@@ -3,48 +3,248 @@
     "id": 1,
     "name": "Dr. Ananya Rao",
     "specialization": "Cardiologist",
-    "image": "/images/ananya-rao.jpg",
+    "image": "/images/doctors/doc1.jpg",
     "available": true,
     "availableSlots": [
       "2025-08-01T09:00",
       "2025-08-01T11:30",
       "2025-08-02T14:00"
-    ]
+    ],
+    "rating": 4.8,
+    "description": "Specialist in heart disorders with 12 years of experience.",
+    "consultationFee": 800,
+    "experienceYears": 12
   },
   {
     "id": 2,
     "name": "Dr. Ravi Sharma",
     "specialization": "Dermatologist",
-    "image": "/images/ravi-sharma.jpg",
+    "image": "/images/doctors/doc2.jpg",
     "available": false,
-    "availableSlots": []
+    "availableSlots": [],
+    "rating": 4.2,
+    "description": "Skin and hair specialist with focus on cosmetic dermatology.",
+    "consultationFee": 600,
+    "experienceYears": 9
   },
   {
     "id": 3,
     "name": "Dr. Meera Iyer",
     "specialization": "Pediatrician",
-    "image": "/images/meera-iyer.jpg",
+    "image": "/images/doctors/doc3.jpg",
     "available": true,
-    "availableSlots": ["2025-08-03T10:00", "2025-08-03T13:30"]
+    "availableSlots": ["2025-08-03T10:00", "2025-08-03T13:30"],
+    "rating": 4.7,
+    "description": "Caring for newborns to teens with a gentle approach.",
+    "consultationFee": 500,
+    "experienceYears": 8
   },
   {
     "id": 4,
     "name": "Dr. Arjun Verma",
     "specialization": "Orthopedic Surgeon",
-    "image": "/images/arjun-verma.jpg",
+    "image": "/images/doctors/doc4.jpg",
     "available": true,
     "availableSlots": [
       "2025-08-01T08:00",
       "2025-08-02T15:00",
       "2025-08-02T17:00"
-    ]
+    ],
+    "rating": 4.5,
+    "description": "Expert in joint replacement and sports injuries.",
+    "consultationFee": 1000,
+    "experienceYears": 14
   },
   {
     "id": 5,
     "name": "Dr. Priya Sen",
     "specialization": "Neurologist",
-    "image": "/images/priya-sen.jpg",
+    "image": "/images/doctors/doc5.jpg",
     "available": false,
-    "availableSlots": []
+    "availableSlots": [],
+    "rating": 4.3,
+    "description": "Treats brain and spine disorders with compassion.",
+    "consultationFee": 1200,
+    "experienceYears": 10
+  },
+  {
+    "id": 6,
+    "name": "Dr. Kavita Nair",
+    "specialization": "Psychiatrist",
+    "image": "/images/doctors/doc6.jpg",
+    "available": true,
+    "availableSlots": ["2025-08-04T10:00", "2025-08-04T16:00"],
+    "rating": 4.9,
+    "description": "Specialist in anxiety, depression, and therapy.",
+    "consultationFee": 750,
+    "experienceYears": 12
+  },
+  {
+    "id": 7,
+    "name": "Dr. Nikhil Das",
+    "specialization": "General Physician",
+    "image": "/images/doctors/doc7.jpg",
+    "available": true,
+    "availableSlots": ["2025-08-05T09:30"],
+    "rating": 4.6,
+    "description": "Your go-to doctor for common health issues.",
+    "consultationFee": 400,
+    "experienceYears": 6
+  },
+  {
+    "id": 8,
+    "name": "Dr. Ayesha Khan",
+    "specialization": "Gynecologist",
+    "image": "/images/doctors/doc8.jpg",
+    "available": true,
+    "availableSlots": ["2025-08-06T11:00", "2025-08-06T14:30"],
+    "rating": 4.7,
+    "description": "Expert in women's health and maternity care.",
+    "consultationFee": 900,
+    "experienceYears": 11
+  },
+  {
+    "id": 9,
+    "name": "Dr. Sandeep Kulkarni",
+    "specialization": "Endocrinologist",
+    "image": "/images/doctors/doc9.jpg",
+    "available": false,
+    "availableSlots": [],
+    "rating": 4.4,
+    "description": "Treats diabetes, thyroid, and hormone issues.",
+    "consultationFee": 950,
+    "experienceYears": 13
+  },
+  {
+    "id": 10,
+    "name": "Dr. Neha Thakur",
+    "specialization": "ENT Specialist",
+    "image": "/images/doctors/doc10.jpg",
+    "available": true,
+    "availableSlots": ["2025-08-07T10:00"],
+    "rating": 4.5,
+    "description": "Specialist in ear, nose, and throat surgeries.",
+    "consultationFee": 700,
+    "experienceYears": 7
+  },
+  {
+    "id": 11,
+    "name": "Dr. Rajeev Bhat",
+    "specialization": "Urologist",
+    "image": "/images/doctors/doc11.jpg",
+    "available": true,
+    "availableSlots": ["2025-08-08T15:00"],
+    "rating": 4.3,
+    "description": "Expert in kidney and urinary tract treatment.",
+    "consultationFee": 850,
+    "experienceYears": 10
+  },
+  {
+    "id": 12,
+    "name": "Dr. Sneha Reddy",
+    "specialization": "Dentist",
+    "image": "/images/doctors/doc12.jpg",
+    "available": false,
+    "availableSlots": [],
+    "rating": 4.6,
+    "description": "Painless dental treatments and smile makeovers.",
+    "consultationFee": 550,
+    "experienceYears": 5
+  },
+  {
+    "id": 13,
+    "name": "Dr. Vinod Jain",
+    "specialization": "Oncologist",
+    "image": "/images/doctors/doc13.jpg",
+    "available": true,
+    "availableSlots": ["2025-08-09T13:00"],
+    "rating": 4.8,
+    "description": "Cancer specialist with focus on early detection.",
+    "consultationFee": 1500,
+    "experienceYears": 15
+  },
+  {
+    "id": 14,
+    "name": "Dr. Swathi Menon",
+    "specialization": "Radiologist",
+    "image": "/images/doctors/doc14.jpg",
+    "available": false,
+    "availableSlots": [],
+    "rating": 4.4,
+    "description": "Expert in MRI, CT, and ultrasound imaging.",
+    "consultationFee": 850,
+    "experienceYears": 9
+  },
+  {
+    "id": 15,
+    "name": "Dr. Harish Patel",
+    "specialization": "Gastroenterologist",
+    "image": "/images/doctors/doc15.jpg",
+    "available": true,
+    "availableSlots": ["2025-08-10T09:00", "2025-08-10T11:30"],
+    "rating": 4.6,
+    "description": "Treats stomach, liver, and digestive issues.",
+    "consultationFee": 950,
+    "experienceYears": 11
+  },
+  {
+    "id": 16,
+    "name": "Dr. Ruchi Agarwal",
+    "specialization": "Ophthalmologist",
+    "image": "/images/doctors/doc16.jpg",
+    "available": true,
+    "availableSlots": ["2025-08-11T12:00"],
+    "rating": 4.7,
+    "description": "Vision care, LASIK, and eye surgery expert.",
+    "consultationFee": 700,
+    "experienceYears": 8
+  },
+  {
+    "id": 17,
+    "name": "Dr. Ashwin Nair",
+    "specialization": "Pulmonologist",
+    "image": "/images/doctors/doc17.jpg",
+    "available": false,
+    "availableSlots": [],
+    "rating": 4.2,
+    "description": "Respiratory health and allergy specialist.",
+    "consultationFee": 800,
+    "experienceYears": 10
+  },
+  {
+    "id": 18,
+    "name": "Dr. Shruti Deshmukh",
+    "specialization": "Rheumatologist",
+    "image": "/images/doctors/doc18.jpg",
+    "available": true,
+    "availableSlots": ["2025-08-12T14:30"],
+    "rating": 4.5,
+    "description": "Arthritis and autoimmune disease expert.",
+    "consultationFee": 1000,
+    "experienceYears": 13
+  },
+  {
+    "id": 19,
+    "name": "Dr. Mohan Pillai",
+    "specialization": "Nephrologist",
+    "image": "/images/doctors/doc19.jpg",
+    "available": true,
+    "availableSlots": ["2025-08-13T10:00"],
+    "rating": 4.6,
+    "description": "Kidney and dialysis care expert.",
+    "consultationFee": 1100,
+    "experienceYears": 14
+  },
+  {
+    "id": 20,
+    "name": "Dr. Isha Kapoor",
+    "specialization": "Immunologist",
+    "image": "/images/doctors/doc20.jpg",
+    "available": false,
+    "availableSlots": [],
+    "rating": 4.3,
+    "description": "Deals with immune system and rare allergies.",
+    "consultationFee": 900,
+    "experienceYears": 9
   }
 ]
