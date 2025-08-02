@@ -1,0 +1,16 @@
+.main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content .main-content-header {
+  width: min(100%, 700px);
+  padding: var(--space-xl);
+  text-align: center;
+}
+
+.main-content-title {
+  font-size: 1.5rem;
+}

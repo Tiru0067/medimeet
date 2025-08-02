@@ -6,16 +6,19 @@ const DoctorsContext = createContext({});
 export const DoctorsProvider = ({ children }) => {
   const [doctors, setDoctors] = useState([]);
   const [doctor, setDoctor] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(null);
 
   useEffect(() => {
     const fetchDoctors = async () => {
+      setLoading(true);
       try {
         const response = await api.get("/doctors");
-        console.log(response.data);
-        setDoctors(response.data);
+        console.log(response.data.data);
+        setDoctors(response.data.data);
       } catch (err) {
         console.error(`Error fetching doctors: ${err}`);
+        setLoading(false);
+      } finally {
         setLoading(false);
       }
     };
