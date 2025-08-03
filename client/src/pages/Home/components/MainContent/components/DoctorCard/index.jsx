@@ -5,7 +5,7 @@ import { Stethoscope } from "lucide-react";
 import { FaStar } from "react-icons/fa";
 
 // Base API URL
-const baseURL = "http://localhost:3000";
+const baseURL = "https://medimeet-lx3s.onrender.com";
 
 const DoctorCard = ({ doctor }) => {
   const nextSlot = doctor.availableSlots.find(
