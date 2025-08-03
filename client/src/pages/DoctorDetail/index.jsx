@@ -9,7 +9,7 @@ import bookingImage from "../../assets/images/undraw_booking.png";
 import NotFound from "../NotFound";
 
 // Base API URL
-const baseURL = "http:localhost:3000";
+const baseURL = "http://localhost:3000";
 
 const DoctorDetail = () => {
   const [data, setData] = useState(null);
