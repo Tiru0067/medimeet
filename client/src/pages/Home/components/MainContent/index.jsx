@@ -2,7 +2,7 @@ import { useDoctors } from "../../../../hooks/useDoctors";
 
 import "./styles.css";
 import DoctorsList from "./components/DoctorsList";
-import Loading from "../../../../components/ui/loading";
+import Loading from "../../../../components/ui/Loading";
 
 const MainContent = () => {
   const { doctors, loading } = useDoctors();
@@ -18,7 +18,13 @@ const MainContent = () => {
         </p>
       </div>
 
-      {loading ? <Loading /> : <DoctorsList doctors={doctors} />}
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="main-content_list-wrapper">
+          <DoctorsList doctors={doctors} />
+        </div>
+      )}
     </section>
   );
 };

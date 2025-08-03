@@ -14,3 +14,9 @@
 .main-content-title {
   font-size: 1.5rem;
 }
+
+.main-content_list-wrapper {
+  width: min(100%, 1200px);
+  display: flex;
+  justify-content: center;
+}

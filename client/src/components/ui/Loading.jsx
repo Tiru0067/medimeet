@@ -1,7 +1,8 @@
 // src/components/Spinner/index.jsx
+import { SiExpertsexchange } from "react-icons/si";
 import { BeatLoader } from "react-spinners";
 
-export default function Spinner({ size = 15, color = "#2b7abf" }) {
+const Loading = ({ size = 15, color = "#2b7abf" }) => {
   return (
     <div
       style={{
@@ -13,4 +14,6 @@ export default function Spinner({ size = 15, color = "#2b7abf" }) {
       <BeatLoader size={size} color={color} />
     </div>
   );
-}
+};
+
+export default Loading;

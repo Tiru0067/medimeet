@@ -1,0 +1,47 @@
+.appointment-form {
+  width: min(100%, 600px);
+  margin-top: var(--space-lg);
+  border-top: 1px solid #ddd;
+  padding-top: var(--space-xl);
+  margin-bottom: 100px;
+}
+
+.form-error {
+  color: var(--color-error);
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: var(--space-xs);
+}
+
+.form-group input {
+  width: 100%;
+  padding: var(--space-md) var(--space-lg);
+  font-size: var(--font-size-base);
+  border-radius: calc(var(--border-radius) * 0.5);
+  border: none;
+  background-color: var(--color-bg);
+  outline: none;
+}
+
+.appointment-form form a {
+  text-decoration: none;
+}
+
+.submit-button {
+  padding: var(--space-md) var(--space-lg);
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  margin-top: var(--space-sm);
+  font-size: var(--font-size-base);
+  font-weight: bold;
+  border-radius: calc(var(--border-radius) * 0.5);
+  cursor: pointer;
+}

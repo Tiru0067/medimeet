@@ -1,0 +1,63 @@
+.confirmation-container {
+  width: 100%;
+  min-height: calc(100dvh - 90px);
+  padding: var(--space-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.confirmation-illustration {
+  max-width: 175px;
+  height: auto;
+  margin-bottom: var(--space-xl);
+}
+
+.confirmation-title {
+  font-size: var(--font-size-xl);
+  color: var(--color-success);
+  margin-bottom: var(--space-xl);
+}
+
+.confirmation-message {
+  font-size: var(--font-size-lg);
+  color: var(--color-text);
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .confirmation-illustration {
+    width: 150px;
+    margin-bottom: var(--space-md);
+  }
+
+  .confirmation-title {
+    font-size: calc(var(--font-size-xl) * 0.9);
+    color: var(--color-success);
+    margin-bottom: var(--space-sm);
+  }
+
+  .confirmation-message {
+    font-size: calc(var(--font-size-base) * 1.2);
+    color: var(--color-text);
+    margin-bottom: 2rem;
+  }
+}
+
+.confirmation-home-link {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.confirmation-home-link:hover {
+  color: var(--btn-text);
+  background-color: var(--btn-hover);
+}

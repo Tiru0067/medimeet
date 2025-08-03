@@ -5,44 +5,34 @@ const DoctorsContext = createContext({});
 
 export const DoctorsProvider = ({ children }) => {
   const [doctors, setDoctors] = useState([]);
-  const [doctor, setDoctor] = useState(null);
-  const [loading, setLoading] = useState(null);
+  const [loadingDoctors, setLoadingDoctors] = useState(false);
+  const [errorDoctors, setErrorDoctors] = useState(null);
 
   useEffect(() => {
     const fetchDoctors = async () => {
-      setLoading(true);
+      setLoadingDoctors(true);
+      setErrorDoctors(null);
+
       try {
         const response = await api.get("/doctors");
-        console.log(response.data.data);
         setDoctors(response.data.data);
       } catch (err) {
         console.error(`Error fetching doctors: ${err}`);
-        setLoading(false);
+        setErrorDoctors("Failed to load doctor list.");
+        setLoadingDoctors(false);
       } finally {
-        setLoading(false);
+        setLoadingDoctors(false);
       }
     };
     fetchDoctors();
   }, []);
 
-  const fetchDoctorById = async (id) => {
-    try {
-      const response = await api.get(`/doctors/${id}`);
-      console.log(response.data);
-      setDoctor(response.data);
-    } catch (err) {
-      console.error(`Error fetching doctor by ID: ${err}`);
-      setLoading(false);
-    }
-  };
-
   return (
     <DoctorsContext.Provider
       value={{
         doctors,
-        doctor,
-        fetchDoctorById,
-        loading,
+        loadingDoctors,
+        errorDoctors,
       }}
     >
       {children}

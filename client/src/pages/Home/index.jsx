@@ -1,13 +1,14 @@
 import HeroSection from "./components/HeroSection";
 import "./styles.css";
 import MainContent from "./components/MainContent";
+import { SearchProvider } from "./searchContext";
 
 const Home = () => {
   return (
-    <main>
+    <SearchProvider>
       <HeroSection />
       <MainContent />
-    </main>
+    </SearchProvider>
   );
 };
 

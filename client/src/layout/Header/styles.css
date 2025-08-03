@@ -3,7 +3,7 @@
 .site-header {
   width: 100%;
   height: 90px;
-  background-color: var(--color-bg);
+  background-color: var(--color-white);
   display: flex;
   align-items: center;
   padding: var(--space-lg) calc(var(--space-2xl) * 1.2);

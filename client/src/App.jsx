@@ -3,7 +3,9 @@ import { DoctorsProvider } from "./context/DoctorsContext";
 
 import Layout from "./layout/Layout";
 import Home from "./pages/Home";
-import DoctorDetail from "./pages/DoctorDetail/DoctorDetail";
+import DoctorDetail from "./pages/DoctorDetail/";
+import AppointmentConfirmation from "./pages/AppointmentConfirmation";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
@@ -11,7 +13,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/doctors/:id" element={<DoctorDetail />} />
+          <Route path="doctor/:id" element={<DoctorDetail />} />
+          <Route path="confirm" element={<AppointmentConfirmation />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </DoctorsProvider>

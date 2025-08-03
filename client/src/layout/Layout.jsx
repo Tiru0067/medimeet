@@ -11,10 +11,6 @@ const Layout = () => {
       <main className="main-content">
         <Outlet />
       </main>
-
-      <footer className="site-footer">
-        <p>&copy; 2025 MediMeet</p>
-      </footer>
     </>
   );
 };

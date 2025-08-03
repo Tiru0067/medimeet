@@ -1,8 +1,11 @@
 .doctors-list {
-  width: min(100%, 900px);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  /* place-items: center; */
+  justify-content: center;
+  gap: var(--space-sm);
   list-style: none;
   padding-left: 0;
+  padding: var(--space-2xl);
 }

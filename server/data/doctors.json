@@ -11,7 +11,7 @@
       "2025-08-02T14:00"
     ],
     "rating": 4.8,
-    "description": "Specialist in heart disorders with 12 years of experience.",
+    "description": "Renowned cardiologist with over a decade of experience in treating heart conditions, including hypertension, arrhythmia, and coronary artery disease. Dr. Rao is known for her patient-centered care and thorough approach to cardiac diagnostics.",
     "consultationFee": 800,
     "experienceYears": 12
   },
@@ -23,7 +23,7 @@
     "available": false,
     "availableSlots": [],
     "rating": 4.2,
-    "description": "Skin and hair specialist with focus on cosmetic dermatology.",
+    "description": "Experienced dermatologist specializing in acne treatment, skin allergies, and cosmetic dermatology. Dr. Sharma is passionate about helping patients improve their skin health and confidence through personalized skincare solutions.",
     "consultationFee": 600,
     "experienceYears": 9
   },
@@ -35,7 +35,7 @@
     "available": true,
     "availableSlots": ["2025-08-03T10:00", "2025-08-03T13:30"],
     "rating": 4.7,
-    "description": "Caring for newborns to teens with a gentle approach.",
+    "description": "Compassionate pediatrician who has been caring for children from infancy to adolescence for over 8 years. Dr. Iyer is known for her warm demeanor and expertise in childhood vaccinations, nutrition, and developmental health.",
     "consultationFee": 500,
     "experienceYears": 8
   },
@@ -51,7 +51,7 @@
       "2025-08-02T17:00"
     ],
     "rating": 4.5,
-    "description": "Expert in joint replacement and sports injuries.",
+    "description": "Highly skilled orthopedic surgeon with 14 years of experience in joint replacement surgeries and sports injury treatments. Dr. Verma is committed to restoring mobility and improving patients' quality of life.",
     "consultationFee": 1000,
     "experienceYears": 14
   },
@@ -63,7 +63,7 @@
     "available": false,
     "availableSlots": [],
     "rating": 4.3,
-    "description": "Treats brain and spine disorders with compassion.",
+    "description": "Specializes in diagnosing and treating disorders of the brain and nervous system, including epilepsy, migraines, and stroke. Dr. Sen is known for her empathetic care and thorough neurological evaluations.",
     "consultationFee": 1200,
     "experienceYears": 10
   },
@@ -75,7 +75,7 @@
     "available": true,
     "availableSlots": ["2025-08-04T10:00", "2025-08-04T16:00"],
     "rating": 4.9,
-    "description": "Specialist in anxiety, depression, and therapy.",
+    "description": "Leading psychiatrist with expertise in anxiety, depression, and behavioral therapy. With 12 years of experience, Dr. Nair provides holistic mental health care tailored to each individual’s needs.",
     "consultationFee": 750,
     "experienceYears": 12
   },
@@ -87,7 +87,7 @@
     "available": true,
     "availableSlots": ["2025-08-05T09:30"],
     "rating": 4.6,
-    "description": "Your go-to doctor for common health issues.",
+    "description": "Dedicated general physician who handles a wide range of everyday health concerns, from fever and flu to chronic conditions. Dr. Das is your first line of care for comprehensive health management.",
     "consultationFee": 400,
     "experienceYears": 6
   },
@@ -99,7 +99,7 @@
     "available": true,
     "availableSlots": ["2025-08-06T11:00", "2025-08-06T14:30"],
     "rating": 4.7,
-    "description": "Expert in women's health and maternity care.",
+    "description": "Specialist in women's reproductive health, pregnancy care, and hormonal issues. Dr. Khan combines medical expertise with compassionate support throughout a woman’s life stages.",
     "consultationFee": 900,
     "experienceYears": 11
   },
@@ -111,7 +111,7 @@
     "available": false,
     "availableSlots": [],
     "rating": 4.4,
-    "description": "Treats diabetes, thyroid, and hormone issues.",
+    "description": "Expert in managing hormonal disorders like diabetes, thyroid issues, and metabolic syndromes. Dr. Kulkarni is known for balancing medical treatment with lifestyle guidance for better long-term outcomes.",
     "consultationFee": 950,
     "experienceYears": 13
   },
@@ -123,7 +123,7 @@
     "available": true,
     "availableSlots": ["2025-08-07T10:00"],
     "rating": 4.5,
-    "description": "Specialist in ear, nose, and throat surgeries.",
+    "description": "Specializes in treating ear, nose, and throat issues including sinus infections, hearing loss, and throat surgeries. Dr. Thakur is known for precise diagnostics and patient-friendly care.",
     "consultationFee": 700,
     "experienceYears": 7
   },
@@ -135,7 +135,7 @@
     "available": true,
     "availableSlots": ["2025-08-08T15:00"],
     "rating": 4.3,
-    "description": "Expert in kidney and urinary tract treatment.",
+    "description": "Urologist with 10 years of experience in treating kidney stones, urinary tract infections, and prostate issues. Dr. Bhat is appreciated for his minimally invasive procedures and clear communication.",
     "consultationFee": 850,
     "experienceYears": 10
   },
@@ -147,7 +147,7 @@
     "available": false,
     "availableSlots": [],
     "rating": 4.6,
-    "description": "Painless dental treatments and smile makeovers.",
+    "description": "Gentle and skilled dentist who focuses on painless dental procedures, cosmetic dentistry, and oral hygiene education. Dr. Reddy is popular for her smile makeovers and calm approach.",
     "consultationFee": 550,
     "experienceYears": 5
   },
@@ -159,7 +159,7 @@
     "available": true,
     "availableSlots": ["2025-08-09T13:00"],
     "rating": 4.8,
-    "description": "Cancer specialist with focus on early detection.",
+    "description": "Seasoned oncologist with expertise in early detection and advanced treatment of cancer. Dr. Jain combines medical excellence with empathetic care for patients and families during difficult times.",
     "consultationFee": 1500,
     "experienceYears": 15
   },
@@ -171,7 +171,7 @@
     "available": false,
     "availableSlots": [],
     "rating": 4.4,
-    "description": "Expert in MRI, CT, and ultrasound imaging.",
+    "description": "Radiologist with 9 years of experience in interpreting MRI, CT scans, and ultrasounds. Dr. Menon plays a critical role in accurate diagnosis and is known for her attention to detail.",
     "consultationFee": 850,
     "experienceYears": 9
   },
@@ -183,7 +183,7 @@
     "available": true,
     "availableSlots": ["2025-08-10T09:00", "2025-08-10T11:30"],
     "rating": 4.6,
-    "description": "Treats stomach, liver, and digestive issues.",
+    "description": "Specialist in digestive system disorders including liver diseases, IBS, and acid reflux. Dr. Patel is known for his thorough evaluations and effective treatment plans.",
     "consultationFee": 950,
     "experienceYears": 11
   },
@@ -195,7 +195,7 @@
     "available": true,
     "availableSlots": ["2025-08-11T12:00"],
     "rating": 4.7,
-    "description": "Vision care, LASIK, and eye surgery expert.",
+    "description": "Vision expert with 8 years of experience in LASIK, cataract, and eye surgeries. Dr. Agarwal is dedicated to preserving eye health with cutting-edge treatments and preventive care.",
     "consultationFee": 700,
     "experienceYears": 8
   },
@@ -207,7 +207,7 @@
     "available": false,
     "availableSlots": [],
     "rating": 4.2,
-    "description": "Respiratory health and allergy specialist.",
+    "description": "Specializes in lung and respiratory disorders such as asthma, COPD, and chronic bronchitis. Dr. Nair offers expert care with a focus on long-term respiratory health.",
     "consultationFee": 800,
     "experienceYears": 10
   },
@@ -219,7 +219,7 @@
     "available": true,
     "availableSlots": ["2025-08-12T14:30"],
     "rating": 4.5,
-    "description": "Arthritis and autoimmune disease expert.",
+    "description": "Rheumatologist with expertise in autoimmune disorders, arthritis, and joint pain management. Dr. Deshmukh is known for personalized treatment plans that reduce inflammation and improve mobility.",
     "consultationFee": 1000,
     "experienceYears": 13
   },
@@ -231,7 +231,7 @@
     "available": true,
     "availableSlots": ["2025-08-13T10:00"],
     "rating": 4.6,
-    "description": "Kidney and dialysis care expert.",
+    "description": "Kidney specialist focusing on dialysis, chronic kidney disease, and transplant care. Dr. Pillai is trusted for his compassionate approach and strong expertise in nephrology.",
     "consultationFee": 1100,
     "experienceYears": 14
   },
@@ -243,7 +243,7 @@
     "available": false,
     "availableSlots": [],
     "rating": 4.3,
-    "description": "Deals with immune system and rare allergies.",
+    "description": "Immunologist treating allergies, autoimmune diseases, and rare immune deficiencies. Dr. Kapoor is known for her methodical diagnostics and dedication to improving patients’ immune health.",
     "consultationFee": 900,
     "experienceYears": 9
   }

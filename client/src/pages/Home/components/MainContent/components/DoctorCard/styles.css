@@ -1,12 +1,113 @@
 .doctor-card {
-  width: 150px;
-  height: 200px;
-  background-color: var(--color-primary);
+  /* min-width: 290px; */
+  width: 100%;
+  height: 180px;
+  background-color: var(--color-white);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+  border-radius: calc(var(--border-radius) * 2);
 }
 
-.doctor-card-image {
+.doctor-card__link {
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+}
+
+.doctor-card:hover {
+  background-color: #ededed;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-card__image-wrapper {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.doctor-card__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
   object-fit: cover;
   object-position: center;
+  border: 2px solid var(--color-muted);
+}
+
+.doctor-card__details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.doctor-card__name {
+  font-size: var(--font-size-lg);
+  color: black;
+  color: var(--text-heading);
+  font-weight: 600;
+  line-height: normal;
+}
+
+.doctor-card__specialization,
+.doctor-card__rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.stethoscope-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.doctor-card__specialization p {
+  font-size: var(--font-size-base);
+}
+
+.doctor-card__fee-rating {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.doctor-card__fee {
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin-top: 3px;
+}
+
+.doctor-card__rating {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  color: #f59e0b;
+  font-weight: 500;
+}
+
+.star-icon {
+  font-size: 1rem;
+}
+
+.doctor-card__availability {
+  font-size: 0.85rem;
+  color: #4b5563;
+  margin-top: 6px;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  color: #fbc035;
+}
+
+.doctor-card__rating p {
+  font-size: var(--font-size-base);
+  line-height: normal;
+  margin-top: 4px;
 }

@@ -21,7 +21,7 @@
   --color-primary: #2b7abf;
   --color-secondary: #64b5f6;
   --color-accent: #e0f7fa;
-  --color-bg: #f8fbfd;
+  --color-bg: #f5f5f5;
   --color-text: #1e2a36;
   --color-muted: #6c757d;
 
@@ -45,14 +45,14 @@
   --text-inverse: var(--color-white); /* for dark sections */
 
   /* Status Colors */
-  --color-success: #28a745;
+  --color-success: #2e7d32;
   --color-warning: #ffc107;
   --color-error: #dc3545;
   --color-info: #17a2b8;
 
   /* Buttons */
-  --btn-bg: var(--color-primary);
-  --btn-hover: #2367a1;
+  --btn-bg: #2367a1;
+  --btn-hover: var(--color-primary);
   --btn-text: #ffffff;
 
   /* Other */
@@ -71,7 +71,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text);
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100dvh;
   line-height: 1.6;
 }
 
