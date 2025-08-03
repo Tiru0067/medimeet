@@ -4,6 +4,7 @@ import { useSearch } from "../../../../useSearch";
 
 const DoctorsList = ({ doctors }) => {
   const { query } = useSearch();
+
   const filteredDoctors = doctors.filter(
     (doc) =>
       doc.name.toLowerCase().includes(query.toLowerCase()) ||

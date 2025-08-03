@@ -7,6 +7,8 @@ import Loading from "../../../../components/ui/Loading";
 const MainContent = () => {
   const { doctors, loading } = useDoctors();
 
+  console.log({ doctors });
+
   return (
     <section className="main-content">
       <div className="main-content-header">

@@ -8,6 +8,9 @@ import AppointmentForm from "./components/AppointmentForm";
 import bookingImage from "../../assets/images/undraw_booking.png";
 import NotFound from "../NotFound";
 
+// Base API URL
+const baseURL = "http:localhost:3000";
+
 const DoctorDetail = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -47,7 +50,7 @@ const DoctorDetail = () => {
             <div className="doctor-details">
               <div className="doctor-details-header">
                 <img
-                  src={`http://192.168.1.8:3000/${data.image}`}
+                  src={`${baseURL}/${data.image}`}
                   alt={data.name}
                   className="doctor-details-image"
                 />

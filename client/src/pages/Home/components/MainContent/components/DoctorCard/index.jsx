@@ -4,6 +4,9 @@ import "./styles.css";
 import { Stethoscope } from "lucide-react";
 import { FaStar } from "react-icons/fa";
 
+// Base API URL
+const baseURL = "http://localhost:3000";
+
 const DoctorCard = ({ doctor }) => {
   const nextSlot = doctor.availableSlots.find(
     (slot) => new Date(slot) > new Date()
@@ -17,7 +20,7 @@ const DoctorCard = ({ doctor }) => {
       <Link to={`/doctor/${doctor.id}`} className="doctor-card__link">
         <div className="doctor-card__image-wrapper">
           <img
-            src={`http://192.168.1.8:3000${doctor.image}`}
+            src={`${baseURL}/${doctor.image}`}
             alt={doctor.name}
             className="doctor-card__image"
           />
