@@ -2,10 +2,6 @@
 
 A simple healthcare appointment booking web app built as part of a Frontend-Focused Full Stack Developer assignment.
 
-## 🔗 Live Preview
-
-(If deployed, add your link here.)
-
 ## 📁 Project Structure
 
 ```
